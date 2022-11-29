@@ -1,8 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Bio.css";
-
+import pictures from "../pictures" 
 
 function Bio() {
+    const [ picture, setPicture] =useState(pictures[0]);
+
+    const displayNextPicture = () => {
+        if (picture.index < pictures.length -1) {
+            setPicture(pictures[picture.index + 1]);
+            return;
+        }else{
+            setPicture(pictures[0]);
+            return;
+        }
+
+    }
      return (
          <div className="mainContainer">
             <div className="bioContainer">
@@ -12,7 +24,7 @@ function Bio() {
                 </p>
             </div>
             <div className="picCarousel">
-
+                <button className="pictureBtn" onClick={displayNextPicture}>See me Work</button>
             </div>
 
         </div>
