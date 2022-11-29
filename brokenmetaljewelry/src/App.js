@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Bio from "./components/bio/Bio "
 import Works from "./components/works/Works"
-import Contact from "./components/contact/Contact--"
+import Contact from "./components/contact/Contact"
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 
 function App() {
