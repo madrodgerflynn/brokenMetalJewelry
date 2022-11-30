@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./Bio.css";
-import pictures from "../pictures" 
+import pictures from "./Pictures" 
 
 function Bio() {
     const [ picture, setPicture] =useState(pictures[0]);
