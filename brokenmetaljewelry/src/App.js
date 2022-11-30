@@ -1,5 +1,5 @@
 import './App.css';
-import Bio from "./components/bio/Bio ";
+import Bio from "./components/bio/Bio";
 import Works from "./components/works/Works";
 // import Contact from "./components/contact/Contact";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
@@ -10,7 +10,7 @@ function App() {
       {/* <NavBar /> */}
 
       <Routes>
-        <Route path="/reactFolio" element={<Bio />} />
+        {/* <Route path="/reactFolio" element={<Bio />} /> */}
         <Route path="/" element={<Bio />} />
         <Route path="/Bio" element={<Bio />} />
         {/* <Route path="/Contact" element={<Contact />} /> */}
