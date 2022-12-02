@@ -24,7 +24,7 @@ function Bio() {
                 </p>
             </div>
             <div className="picCarousel">
-                <img src={picture}></img>
+                {/* <img src={} ></img> */}
                 <button className="pictureBtn" onClick={displayNextPicture}>See me Work</button>
             </div>
 

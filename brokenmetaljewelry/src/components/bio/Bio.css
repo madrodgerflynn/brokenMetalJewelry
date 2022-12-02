@@ -1,5 +1,5 @@
 .mainContainer{
     display: flex;
     flex-direction: column;
-    border: 7px groove brown;
+    border: 7px groove rgb(216, 119, 8);
 }
