@@ -8,3 +8,11 @@
     padding: .5rem;
     background-color: cadetblue;
 }
+.myPictures {
+    display: flex;
+    flex-direction: row;
+    border: 7px solid black;
+}
+.myPictures img {
+    width: 75% ;
+}
