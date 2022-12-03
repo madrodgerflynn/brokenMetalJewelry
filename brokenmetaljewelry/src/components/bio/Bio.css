@@ -1,12 +1,12 @@
 .mainContainer{
     display: flex;
     flex-direction: column;
-    border: 7px groove rgb(216, 119, 8);
+    /* border: 7px groove rgb(216, 119, 8); */
     position: absolute;
     max-width: 100vw;
     max-height: 100vh;
     padding: .5rem;
-    background-color: cadetblue;
+    background-image: linear-gradient( blueviolet 2%, rgb(87, 184, 87) );
     border-radius: 1%;
 }
 .myPictures {
@@ -27,6 +27,7 @@ p {
 @media screen and (max-width: 390px) {
     .mainContainer {
         width: 90%;
+        height: 90%;
     }
 .myPictures img{
     width: 70%;
