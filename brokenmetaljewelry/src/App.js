@@ -4,11 +4,12 @@ import Bio from "./components/bio/Bio";
 import Works from "./components/works/Works";
 // import Contact from "./components/contact/Contact";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import SideBar from './Components/sideBar/SideBar';
 
 function App() {
   return (
     <Router>
-      {/* <NavBar /> */}
+      <SideBar />
 
       <Routes>
         {/* <Route path="/reactFolio" element={<Bio />} /> */}
