@@ -31,7 +31,7 @@ function Bio() {
             </div>
 
             <div className="myPictures">
-                <img classname="imagesOfMe"src={picture.picLink} alt={picture.alt}></img>
+                <img className="imagesOfMe"src={picture.picLink} alt={picture.alt}></img>
 
             </div>
         </div>
