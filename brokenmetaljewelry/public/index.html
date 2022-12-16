@@ -29,7 +29,13 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <div id="particles-js"></div>
     <script src="https://cdn.jsdelivr.net/npm/particlesjs@2.2.3/dist/particles.min.js"></script>
+    <script>
+      particlesJS.load('particles-js', 'particles-config.json', function(){
+        console.log("particles.json loaded...")
+      });
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
