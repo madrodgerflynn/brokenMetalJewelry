@@ -2,5 +2,15 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    left: 2px;
+   width: 12rem;
+   left: 65rem;
+   top: 20rem;
+
+}
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    color:rgb(56, 50, 50);
+    font-size: xx-large;
 }
