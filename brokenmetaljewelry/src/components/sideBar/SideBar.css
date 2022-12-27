@@ -14,3 +14,9 @@
     color:rgb(100, 16, 16);
     font-size: xx-large;
 }
+@media  screen and  (max-width: 390px) {
+.sideBarContainer {
+    width: 50%;
+}
+};
+    
