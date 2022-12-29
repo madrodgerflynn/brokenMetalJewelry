@@ -8,7 +8,11 @@ import SideBar from './components/sideBar/SideBar';
 import React, { useCallback } from 'react';
 import {loadFull} from "tsparticles";
 import particleOptions from "./particlesjs-config.json"
+
 function App() {
+  var canvas =document.getElementsByTagName('canvas')[0];
+  canvas.style.width = 800;
+  canvas.style.height=800;
   const particlesInit = useCallback((main) => {
     loadFull(main);
   },[]);

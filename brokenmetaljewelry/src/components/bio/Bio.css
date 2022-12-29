@@ -8,6 +8,7 @@
     padding: .5rem;
     background-image: linear-gradient( blueviolet 2%, rgb(41, 24, 112) );
     border-radius: 1%;
+    align-items: center;
 }
 .myPictures {
     display: flex;
