@@ -9,10 +9,10 @@ import React, { useCallback } from 'react';
 import {loadFull} from "tsparticles";
 import particleOptions from "./particlesjs-config.json"
 
+var canvas =document.getElementsByTagName('canvas')[0];
+canvas.width = 800;
+canvas.height=800;
 function App() {
-  var canvas =document.getElementsByTagName('canvas')[0];
-  canvas.style.width = 800;
-  canvas.style.height=800;
   const particlesInit = useCallback((main) => {
     loadFull(main);
   },[]);
