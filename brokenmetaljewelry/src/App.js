@@ -9,15 +9,15 @@ import React, { useCallback } from 'react';
 import {loadFull} from "tsparticles";
 import particleOptions from "./particlesjs-config.json"
 
-var canvas =document.getElementsByTagName('canvas')[0];
-canvas.width = 800;
-canvas.height=800;
+
 function App() {
   const particlesInit = useCallback((main) => {
     loadFull(main);
+    
   },[]);
   return (
     <Router>
+      
       <Particles options={particleOptions} init={particlesInit} />
       <Routes>
         {/* <Route path="/reactFolio" element={<Bio />} /> */}

@@ -6,7 +6,7 @@
     max-width: 100vw;
     max-height: 100vh;
     padding: .5rem;
-    background-image: linear-gradient( blueviolet 2%, rgb(41, 24, 112) );
+    /* background-image: linear-gradient( blueviolet 2%, rgb(41, 24, 112) ); */
     border-radius: 1%;
     align-items: center;
 }
@@ -24,6 +24,12 @@
 p {
     display: flex;
     width: 60%;
+}
+.pictureBtn {
+ position: relative;
+ display: flex;
+ border: 2px groove black;
+ background-color: burlywood;
 }
 @media screen and (max-width: 390px) {
     .mainContainer {
