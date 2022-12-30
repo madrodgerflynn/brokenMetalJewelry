@@ -5,7 +5,8 @@ const pictures =[
     {
         index:0,
         picLink: soldering,
-        alt:  "Annealing some Copper Scrap"
+        alt:  "Annealing some Copper Scrap",
+        description: "This is me annealing some copper scrap. Annealing is the process of softening the metal and removing impurities such as oil or dust."
     },
     {
 index:1,

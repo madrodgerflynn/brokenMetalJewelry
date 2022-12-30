@@ -58,13 +58,22 @@ left: 100px;
     display: flex;
     flex-direction: column;
     position: relative;
-    right: 60rem;
-    top: 10rem;
+    right: 80rem;
+    top: 1rem;
     height: 20rem;
     width:30rem;
     font-family: 'Amatic SC', cursive;
     font-size: 36px;
 
+}
+.pictureDescription{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 8rem;
+    width: 20rem;
+    left: 20rem;
+    top: 25rem;
 }
 @media screen and (max-width: 390px) {
     .mainContainer {

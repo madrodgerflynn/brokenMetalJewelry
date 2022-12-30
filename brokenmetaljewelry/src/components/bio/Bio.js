@@ -31,9 +31,10 @@ function Bio() {
             </div>
 
             <div className="myPictures">
-                <img className="imagesOfMe"src={picture.picLink} alt={picture.alt}></img>
+                <p className="pictureDescription">{picture.description}</p>
+                <img className="imagesOfMe"src={picture.picLink} alt={picture.alt} ></img>
 
-            <p className="additionalInfo">These are some pictures of me working at the Denver Art Gym! </p>
+            <p className="additionalInfo">These are some pictures of me working at the Denver Art Gym!</p>
             </div>
         </div>
      )
