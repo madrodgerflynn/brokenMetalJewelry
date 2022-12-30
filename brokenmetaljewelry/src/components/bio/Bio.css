@@ -17,9 +17,11 @@
     padding: .5rem;
 }
 .myPictures img {
+    position: relative;
     width: 50rem ;
    border: solid black;
     border-radius: 7%;
+    left: 100px;
 }
 p {
     display: flex;
@@ -30,6 +32,12 @@ p {
  display: flex;
  border: 2px groove black;
  background-color: burlywood;
+}
+.bioContainer{
+    display: flex;
+    flex-direction: column;
+position: relative;
+left: 100px;
 }
 @media screen and (max-width: 390px) {
     .mainContainer {
