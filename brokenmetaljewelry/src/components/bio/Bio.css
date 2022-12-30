@@ -19,7 +19,7 @@
 .myPictures img {
     position: relative;
     width: 50rem ;
-   border: solid black;
+   border: double 8px rgb(48, 46, 46);
     border-radius: 7%;
     left: 100px;
 }
@@ -30,8 +30,12 @@ p {
 .pictureBtn {
  position: relative;
  display: flex;
- border: 2px groove black;
+ border: 2px inset black;
  background-color: burlywood;
+ height: 25px;
+ width: auto;
+ font-size: larger;
+ padding: 13px;
 }
 .bioContainer{
     display: flex;
