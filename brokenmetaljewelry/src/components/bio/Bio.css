@@ -23,7 +23,10 @@
     border-radius: 7%;
     left: 100px;
 }
-p {
+.bioText{
+    font-family: 'Amatic SC', cursive;
+    font-size: 36px;
+    font-weight: bolder;
     display: flex;
     width: 60%;
 }
@@ -31,11 +34,19 @@ p {
  position: relative;
  display: flex;
  border: 2px inset black;
- background-color: burlywood;
- height: 25px;
+ background-color: rgba(61, 36, 3, 0.39);
+ height: fit-content;
  width: auto;
  font-size: larger;
- padding: 13px;
+ font-weight: 300;
+ margin: 2px;
+font-weight: bolder;
+ border-radius: 4%;
+ font-family: 'Indie Flower', cursive;
+
+}
+h1{
+    font-family: 'Acme', sans-serif;
 }
 .bioContainer{
     display: flex;
