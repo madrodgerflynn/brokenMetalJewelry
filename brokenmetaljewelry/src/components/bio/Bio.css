@@ -92,13 +92,11 @@ left: 100px;
 background-color: #cf9e00;
 padding: 2px;
 }
-@media screen and (max-width: 390px) {
+/* @media screen and (max-width: 390px) {
     .mainContainer {
         width: 90%;
         height: 90%;
     }
-.myPictures img{
-    width: 50%;
+
 }
-}
-    
+     */
