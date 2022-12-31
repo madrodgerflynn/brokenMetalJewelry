@@ -37,17 +37,17 @@
 .pictureBtn {
  position: relative;
  display: flex;
- top: 25rem;
- right: 20rem;
- border: 2px inset black;
- background-color: rgba(61, 36, 3, 0.39);
+ top: 29rem;
+ right: 29rem;
+ border: 3px inset #2e2e2e;
+ background-color: 	#cf9e00;
  height: fit-content;
  width: auto;
  font-size: larger;
  font-weight: 300;
  margin: 2px;
 font-weight: bolder;
- border-radius: 4%;
+ border-radius: 8%;
  font-family: 'Indie Flower', cursive;
  color: #2e2e2e;
 
@@ -64,16 +64,15 @@ position: relative;
 left: 100px;
 }
 .additionalInfo{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    right: 60rem;
-    top: 1rem;
-    height: 20rem;
-    width:30rem;
     font-family: 'Amatic SC', cursive;
     font-size: 36px;
+    font-weight: bolder;
+    display: flex;
+    width: 60%;
     color: #2e2e2e;
+   position: relative;
+   left: 30rem;
+   bottom: 5rem;
 
 }
 .pictureDescription{
@@ -83,14 +82,15 @@ left: 100px;
     height: 16rem;
     width: 20rem;
     left: 20rem;
-    top: 25rem;
+    top: 6rem;
     font-family: 'Amatic SC', cursive;
     font-size: 29px;
     font-weight: 100;
     color: #2e2e2e;
     border: double 8px #2e2e2e;
     border-radius: 7%;
-
+background-color: #cf9e00;
+padding: 2px;
 }
 @media screen and (max-width: 390px) {
     .mainContainer {
