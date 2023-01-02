@@ -1,0 +1,13 @@
+.footerContainer {
+    display: flex;
+    position: relative;
+    bottom: 15rem;
+    /* background-color: #cf9e00; */
+    height: 100px;
+    width: 100px;
+    size: 36px;
+    align-items: center;
+}
+i{
+    background-color: #cf9e00;
+}

@@ -7,8 +7,8 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import SideBar from './components/sideBar/SideBar';
 import React, { useCallback } from 'react';
 import {loadFull} from "tsparticles";
-import particleOptions from "./particlesjs-config.json"
-
+import particleOptions from "./particlesjs-config.json";
+import Footer from "./components/footer/Footer";
 
 function App() {
   const particlesInit = useCallback((main) => {
@@ -27,6 +27,7 @@ function App() {
         {/* <Route path="/Works" element={<Works />} /> */}
       </Routes>
       <SideBar />
+      <Footer/>
     </Router>
   );
 }
