@@ -5,6 +5,9 @@
    width: 12rem;
    left: 130rem;
    top: -35rem;
+   border: double 8px #2e2e2e;
+   border-radius: 7%;
+background-color: #cf9e00;
 
 }
 .sideBar{
