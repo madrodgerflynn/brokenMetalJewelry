@@ -57,6 +57,7 @@ h1{
     color: #2e2e2e;
     font-size: 50px;
     position: relative;
+    left: 70rem
 }
 .bioContainer{
     display: flex;
@@ -117,6 +118,9 @@ h1{
     top: -33rem;
    font-size: 20px;
    overflow-y: auto;
+}
+.myPictures{
+    
 }
 }
     
