@@ -6,7 +6,7 @@ function Footer () {
     return (
         <div className="footerContainer">
             <i></i>
-            <i>{FaWrench}</i>
+            <i>{<FaWrench/>}</i>
         </div>
     )
 }

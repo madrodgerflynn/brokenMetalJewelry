@@ -1,13 +1,16 @@
 #tsparticles {
 	position: absolute;
 	height: 100vh;
-	width: 100vw;
+	width: 90vw;
 	margin: 0;
 	padding: 0;
 	left: 0;
 	top: 0;
 	z-index: -1 !important;
   /* background-image: linear-gradient( #abdf91 3%, #557446 ); */
+}
+main{
+  width: 100vw;
 }
 
 /* .App {

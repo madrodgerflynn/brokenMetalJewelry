@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import SideBar from "../sideBar/SideBar";
 import "./Bio.css";
 import pictures from "./Pictures" 
 
@@ -26,15 +27,16 @@ function Bio() {
                 </p>
                 <br></br>
                 <p className="additionalInfo">Here are some pictures of me working at the Denver Art Gym! I have included a link HERE to their site. Please check it out because it is an incredible place!</p>
-            </div>
-            <div className="picCarousel">
+                </div>
+                <div className="picCarousel">
                
                 <button className="pictureBtn" onClick={displayNextPicture}>See me Work</button>
-            </div>
 
-            <div className="myPictures">
+                <div className="myPictures">
                 <p className="pictureDescription">{picture.description}</p>
                 <img className="imagesOfMe"src={picture.picLink} alt={picture.alt} ></img>
+                </div>
+                
             </div>
         </div>
      )
