@@ -25,7 +25,8 @@ background-color: #cf9e00;
 @media  screen and  (max-width: 390px) {
 .sideBarContainer {
     width: 50%;
-    
+    left: 38rem;
+    top: -142rem;
 }
 };
     

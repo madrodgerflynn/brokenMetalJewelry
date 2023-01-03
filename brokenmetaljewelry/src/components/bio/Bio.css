@@ -37,13 +37,13 @@
 .pictureBtn {
  position: relative;
  display: flex;
- top: 29rem;
- right: 29rem;
- border: 3px inset #2e2e2e;
+ top: 30rem;
+ left: 27rem;
+ border: 3px outset #2e2e2e;
  background-color: 	#cf9e00;
  height: fit-content;
  width: auto;
- font-size: larger;
+ font-size: 36px;
  font-weight: 300;
  margin: 2px;
 font-weight: bolder;
@@ -96,9 +96,10 @@ padding: 2px;
 }
 @media screen and (max-width: 390px) {
     .additionalInfo{
-        bottom: 35rem;
-        left: 26rem;
-        font-size: 20px;
+        bottom: 44rem;
+        left: 42rem;
+        font-size: 38px;
+        width:15rem
        
         
     }
@@ -110,17 +111,24 @@ h1{
     left: 9rem;
 }
 .bioText{
-    font-size: 20px;
+    font-size: 38px;
     left: 13rem;
 }
 .pictureDescription{
-    left: 0rem;
-    top: -33rem;
+    left: 3rem;
+    top: 10rem;
    font-size: 20px;
    overflow-y: auto;
+   width: 10rem;
 }
-.myPictures{
-    
+.myPictures img{
+    left: -1rem;
+    bottom: 30rem
+}
+.pictureBtn {
+    top: 40rem;
+    left: 20rem;
+
 }
 }
     
