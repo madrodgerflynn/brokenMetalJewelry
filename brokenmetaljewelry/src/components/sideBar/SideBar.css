@@ -3,7 +3,7 @@
     flex-direction: column;
     position: relative;
    width: 12rem;
-   left: 130rem;
+   left: 115rem;
    top: -35rem;
    border: double 8px #2e2e2e;
    border-radius: 7%;
@@ -25,6 +25,7 @@ background-color: #cf9e00;
 @media  screen and  (max-width: 390px) {
 .sideBarContainer {
     width: 50%;
+    
 }
 };
     

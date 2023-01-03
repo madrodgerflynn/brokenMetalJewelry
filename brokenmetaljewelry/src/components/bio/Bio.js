@@ -19,8 +19,8 @@ function Bio() {
     }
      return (
          <div className="mainContainer">
-            <div className="bioContainer">
                 <h1>About Me</h1>
+            <div className="bioContainer">
                 <p className="bioText">
                     Hello, my name is Tyler Anderson and this is my page. I figure I'll give you a little information about what I do. Working in the manufacturing/eCommerce industry I found all sorts of interesting scraps. It is with these scraps that I built my first necklace. From there it was all uphill. The training and practice has been difficult but incredibly enlightening. I aim to use scraps, to make things that seem trivial, beautiful. I know it sounds cheesy, but it has become a therapy in this crazy world we live in!
                 </p>

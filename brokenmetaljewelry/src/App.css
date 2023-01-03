@@ -48,3 +48,9 @@
     transform: rotate(360deg);
   }
 } */
+@media screen and (max-width: 390px){
+  canvas {
+    height: 80%;
+    width: 80%;
+}
+}
