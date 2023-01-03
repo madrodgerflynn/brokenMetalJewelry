@@ -20,6 +20,7 @@ background-color: #cf9e00;
 .sideBar a {
     color:rgb(48, 18, 1);
     padding: 2rem;
+    text-decoration: none;
 }
 @media  screen and  (max-width: 390px) {
 .sideBarContainer {
