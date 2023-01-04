@@ -1,7 +1,8 @@
 .sideBarContainer{
     display: flex;
     flex-direction: column;
-   align-items: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
    width: 12%;
    
    border: double 8px #2e2e2e;
@@ -22,10 +23,10 @@ background-color: #cf9e00;
     text-decoration: none;
 }
 @media  screen and  (max-width: 390px) {
-/* .sideBarContainer {
+.sideBarContainer {
     width: 50%;
     left: 38rem;
     top: -142rem;
-} */
-};
+}
+ }; 
     

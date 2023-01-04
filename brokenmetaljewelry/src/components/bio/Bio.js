@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import SideBar from "../sideBar/SideBar";
+// import SideBar from "../sideBar/SideBar";
 import "./Bio.css";
 import pictures from "./Pictures" 
 
@@ -20,6 +20,7 @@ function Bio() {
     }
      return (
          <div className="mainContainer">
+                
                 <h1>About Me</h1>
             <div className="bioContainer">
                 <p className="bioText">
@@ -38,6 +39,7 @@ function Bio() {
                 </div>
                 
             </div>
+            
         </div>
      )
 }
