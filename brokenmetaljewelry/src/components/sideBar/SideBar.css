@@ -1,7 +1,7 @@
 .sideBarContainer{
     display: flex;
-    flex-direction: row;
-   align-items: flex-end;
+    flex-direction: column;
+   align-items: flex-start;
    width: 12%;
    
    border: double 8px #2e2e2e;
@@ -12,7 +12,7 @@ background-color: #cf9e00;
 .sideBar{
     display: flex;
     flex-direction: column;
-    align-items: space-between;
+
     
     font-size: xx-large;
 }
