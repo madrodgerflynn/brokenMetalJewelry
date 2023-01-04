@@ -1,20 +1,18 @@
 .sideBarContainer{
     display: flex;
-    flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+    flex-direction: column-reverse;
+align-items: center;
    width: 12%;
-   
    border: double 8px #2e2e2e;
    border-radius: 7%;
 background-color: #cf9e00;
-
+/* position: sticky;
+left: 80%;
+top: 50%; */
 }
 .sideBar{
     display: flex;
     flex-direction: column;
-
-    
     font-size: xx-large;
 }
 .sideBar a {
@@ -22,11 +20,11 @@ background-color: #cf9e00;
     padding: 2rem;
     text-decoration: none;
 }
-@media  screen and  (max-width: 390px) {
+/* @media  screen and  (max-width: 390px) {
 .sideBarContainer {
     width: 50%;
     left: 38rem;
     top: -142rem;
 }
- }; 
+ };  */
     
