@@ -18,6 +18,7 @@ function App() {
   return (
     <Router>
       <main>
+      <SideBar />
       <Routes>
         {/* <Route path="/reactFolio" element={<Bio />} /> */}
         <Route path="/" element={<Bio />} />
@@ -25,7 +26,6 @@ function App() {
         {/* <Route path="/Contact" element={<Contact />} /> */}
         {/* <Route path="/Works" element={<Works />} /> */}
       </Routes>
-      <SideBar />
       <Footer/>
       </main>
       <Particles options={particleOptions} init={particlesInit} />
