@@ -77,7 +77,7 @@ h1{
     display: flex;
     flex-direction: column;
 position: relative;
-left: 100px;
+
 }
 .additionalInfo{
     font-family: 'Amatic SC', cursive;
@@ -108,41 +108,7 @@ left: 100px;
 background-color: #cf9e00;
 padding: 2px;
 }
-/* @media screen and (max-width: 390px) {
-    .additionalInfo{
-        bottom: 44rem;
-        left: 42rem;
-        font-size: 38px;
-        width:15rem
-       
-        
-    }
-    .bioContainer{
-    width:30%;
-    left: -10rem;
-}
-h1{
-    left: 9rem;
-}
-.bioText{
-    font-size: 38px;
-    left: 13rem;
-}
-.pictureDescription{
-    left: 3rem;
-    top: 10rem;
-   font-size: 20px;
-   overflow-y: auto;
-   width: 10rem;
-}
-.myPictures img{
-    left: -1rem;
-    bottom: 30rem
-}
-.pictureBtn {
-    top: 40rem;
-    left: 20rem;
-
-}
-} */
+  @media screen and (max-width: 390px) {
+   
     
+ } 

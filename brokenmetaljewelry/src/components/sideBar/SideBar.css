@@ -6,9 +6,6 @@ align-items: center;
    border: double 8px #2e2e2e;
    position: sticky;
 background-color: #cf9e00;
-/* position: sticky;
-left: 80%;
-top: 50%; */
 }
 .sideBar{
     display: flex;
