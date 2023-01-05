@@ -3,7 +3,9 @@ import "./Contact.css";
 
 function Contact(){
     return(
-        <div className="contactForm"></div>
+        <div className="contactContainer">
+            <form className="row contactForm"></form>
+        </div>
     )
 }
 export default Contact
