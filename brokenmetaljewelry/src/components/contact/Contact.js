@@ -32,7 +32,7 @@ function Contact(){
         emailjs
         .send(
             "jewelry_email",
-            "portfolio_template",
+            "jewelry_template",
             contactFormInputs,
             ""
         )
