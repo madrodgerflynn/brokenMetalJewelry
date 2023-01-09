@@ -9,6 +9,7 @@ function SideBar (){
             <div className="sideBar">
                 <Link to={{pathname: "../contact"}}>Contact Me</Link>
                 <Link to={{pathname: "../works"}}>My Pieces</Link>
+                <Link to={{pathname: "../bio"}}>Home</Link>
             </div>
 
         </div>
