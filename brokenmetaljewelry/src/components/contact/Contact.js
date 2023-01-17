@@ -55,8 +55,23 @@ function Contact(){
                     placeholder="Full Name"
                     onChange={updateInputState}></input>
                 </div>
+                <div className="col emailInput">
+                    <input name="sender_email"
+                    type="text"
+                    className="form-control email"
+                    placeholder="Email"
+                    onChange={updateInputState}></input>
+                </div>
+                <div className="messageInput">
+                    <span className="input-group-text messageTitle">Type Your Message Here</span>
+                    <textarea 
+                    name="message"
+                    className="form-control message"
+                    onChange={updateInputState}></textarea>
+                </div>
+                <button className="submitBtn" type="submit">Send</button>
             </form>
         </div>
-    )
+    );
 }
 export default Contact
