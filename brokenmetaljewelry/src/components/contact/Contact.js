@@ -67,6 +67,7 @@ function Contact(){
                     <textarea 
                     name="message"
                     className="form-control message"
+                    placeholder="Type Message Here"
                     onChange={updateInputState}></textarea>
                 </div>
                 <button className="submitBtn" type="submit">Send</button>
