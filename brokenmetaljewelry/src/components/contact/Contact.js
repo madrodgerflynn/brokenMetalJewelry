@@ -63,7 +63,7 @@ function Contact(){
                     onChange={updateInputState}></input>
                 </div>
                 <div className="messageInput">
-                    <span className="input-group-text messageTitle">Type Your Message Here</span>
+                    <span className="input-group-text messageTitle"></span>
                     <textarea 
                     name="message"
                     className="form-control message"
