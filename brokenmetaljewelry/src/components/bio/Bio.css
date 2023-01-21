@@ -9,7 +9,7 @@
      
      border-radius: 1%;
     align-items: center; */
-width:100%;
+/* width:100%; */
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -19,19 +19,19 @@ align-items: center;
     flex-direction: row-reverse;
     justify-content: space-evenly;
     align-items: center;
-    align-content: center;
-    
+   
 }
 .myPictures {
     display: flex;
     flex-direction: row;
 
-    width: 75%;
+    width: 70%;
     padding: .5rem;
 }
 .myPictures img {
    display: flex;
-    width: 50rem ;
+    width: 70% ;
+    height: 50%;
    border: double 8px rgb(48, 46, 46);
     border-radius: 7%;
    
@@ -44,7 +44,7 @@ align-items: center;
     width: 60%;
     color: #2e2e2e;
    position: relative;
-   left: 30rem;
+   /* left: 30rem; */
 
 }
 .pictureBtn {
@@ -77,6 +77,7 @@ h1{
     display: flex;
     flex-direction: column;
 position: relative;
+align-items: center;
 
 }
 .additionalInfo{
@@ -87,7 +88,7 @@ position: relative;
     width: 60%;
     color: #2e2e2e;
    position: relative;
-   left: 30rem;
+   /* left: 30rem; */
    bottom: 5rem;
 
 }
@@ -110,5 +111,8 @@ padding: 2px;
 }
   @media screen and (max-width: 390px) {
    
+    .pictureDescription{
+        font-size: 20px;
+    }
     
  } 
