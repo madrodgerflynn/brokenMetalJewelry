@@ -4,5 +4,12 @@
     border: 10px solid balck;
     align-items:center;
     margin: 10%;
+    padding: 5%;
+
+}
+.fullName{
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 4%;
 
 }
