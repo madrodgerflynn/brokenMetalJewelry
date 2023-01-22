@@ -13,7 +13,7 @@
     height: 1.5rem;
     margin-bottom: 4%;
     border-radius: 1%;
-    /* background-color: ; */
+    background-color: #cf9e00 ;
 
 }
 .email{
@@ -21,10 +21,12 @@
     height: 1.5rem;
     margin-bottom: 4%;
     border-radius: 1%;
+    background-color: #cf9e00 ;
 }
 .message {
     width: 150%;
     height: 4rem;
     margin-bottom: 4%;
     border-radius: 1%;
+    background-color: #cf9e00 ;
 }
