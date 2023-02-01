@@ -52,7 +52,7 @@ align-items: center;
  display: flex;
  top: 30rem;
  left: 27rem;
- border: 3px outset #2e2e2e;
+ border: 3px outset #4e0404;
  background-color: 	#cf9e00;
  height: fit-content;
  width: auto;
@@ -67,7 +67,7 @@ font-weight: bolder;
 }
 h1{
     font-family: 'Acme', sans-serif;
-    color: #2e2e2e;
+    color:#4e0404;
     font-size: 50px;
    text-align: center;
    
@@ -86,7 +86,7 @@ align-items: center;
     font-weight: bolder;
     display: flex;
     width: 60%;
-    color: #2e2e2e;
+    color: #4e0404;
    position: relative;
    /* left: 30rem; */
    bottom: 5rem;
@@ -103,8 +103,8 @@ align-items: center;
     font-family: 'Amatic SC', cursive;
     font-size: 29px;
     font-weight: 100;
-    color: #2e2e2e;
-    border: double 8px #2e2e2e;
+    color: #4e0404;
+    border: double 8px #4e0404;
     border-radius: 7%;
 background-color: #cf9e00;
 padding: 2px;
