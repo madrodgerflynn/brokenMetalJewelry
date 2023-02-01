@@ -53,7 +53,7 @@ align-items: center;
  top: 30rem;
  left: 27rem;
  border: 3px outset #4e0404;
- background-color: 	#cf9e00;
+ background-color: 	#c79f23;
  height: fit-content;
  width: auto;
  font-size: 36px;
@@ -106,7 +106,7 @@ align-items: center;
     color: #4e0404;
     border: double 8px #4e0404;
     border-radius: 7%;
-background-color: #cf9e00;
+background-color: #c79f23;
 padding: 2px;
 }
   @media screen and (max-width: 390px) {
