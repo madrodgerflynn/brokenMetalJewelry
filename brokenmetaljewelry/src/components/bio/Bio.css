@@ -35,7 +35,7 @@ align-items: center;
    display: flex;
     width: 70% ;
     height: 50%;
-   border: double 8px rgb(48, 46, 46);
+   border: double 8px var(--burgandy);
     border-radius: 7%;
    
 }
