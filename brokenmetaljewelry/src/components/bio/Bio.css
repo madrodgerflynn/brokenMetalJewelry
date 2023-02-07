@@ -56,13 +56,13 @@ align-items: center;
  top: 30rem;
  left: 27rem;
  border: 3px outset var(--burgandy);
- background-color: 	#c79f23;
+ background-color: var(--yellow);
  height: fit-content;
  width: auto;
  font-size: 36px;
  font-weight: 300;
  margin: 2px;
-font-weight: bolder;
+
  border-radius: 8%;
  font-family: 'Indie Flower', cursive;
  color: var(--burgandy);
