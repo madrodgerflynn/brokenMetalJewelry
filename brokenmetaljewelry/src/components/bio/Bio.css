@@ -35,7 +35,7 @@ align-items: center;
    display: flex;
     width: 70% ;
     height: 50%;
-   border: double 8px var(--burgandy);
+   border: double 15px var(--burgandy);
     border-radius: 7%;
    
 }
@@ -55,7 +55,7 @@ align-items: center;
  display: flex;
  top: 30rem;
  left: 27rem;
- border: 3px outset var(--burgandy);
+ border: 15px double var(--burgandy);
  background-color: var(--yellow);
  height: fit-content;
  width: auto;
@@ -107,7 +107,7 @@ align-items: center;
     font-size: 29px;
     font-weight: 100;
     color: var(--burgandy);
-    border: double 8px var(--burgandy);
+    border: double 15px var(--burgandy);
     border-radius: 7%;
 background-color:var(--yellow);
 padding: 2px;
