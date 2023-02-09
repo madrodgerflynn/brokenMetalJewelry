@@ -17,3 +17,4 @@ function myWorks(){
       </CCard> 
     )
 }
+export default myWorks;
