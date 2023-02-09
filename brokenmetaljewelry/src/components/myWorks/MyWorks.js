@@ -1,8 +1,8 @@
 import React from "react";
-import "./myWorks.css";
-import "../images/moonScape.png"
+import "./MyWorks.css";
+import "../workimages/moonScape.png"
 
-function myWorks(){
+function MyWorks(){
    
     return(
         <div className="card1" style={{ width: '18rem' }}>
@@ -17,4 +17,4 @@ function myWorks(){
       </div> 
     )
 }
-export default myWorks;
+export default MyWorks;

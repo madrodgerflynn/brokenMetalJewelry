@@ -8,7 +8,7 @@ function SideBar (){
         <div className="sideBarContainer">
             <div className="sideBar">
                 <Link to={{pathname: "../contact"}}>Contact Me</Link>
-                <Link to={{pathname: "../works"}}>My Pieces</Link>
+                <Link to={{pathname: "../myworks"}}>My Pieces</Link>
                 <Link to={{pathname: "../bio"}}>Home</Link>
             </div>
 
