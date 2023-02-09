@@ -1,7 +1,13 @@
+.card-body{
+    width: 20%;
+    margin: 2%;
+}
 .card1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
 }
 h1{
     font-family: 'Acme', sans-serif;
@@ -9,6 +15,6 @@ h1{
     font-size: 50px;
 }
 img{
-   width: 100%; 
-   object-fit: cover;
+   width: 40%; 
+   object-fit:contain
 }
