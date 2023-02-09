@@ -1,7 +1,7 @@
 import './App.css';
 import Bio from "./components/bio/Bio";
 import Particles from "react-particles"
-// import Works from "./components/works/Works";
+import MyWorks from "./components/myworks/MyWorks";
 import Contact from "./components/contact/Contact";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import SideBar from './components/sideBar/SideBar';
@@ -24,7 +24,7 @@ function App() {
         <Route path="/" element={<Bio />} />
         <Route path="/Bio" element={<Bio />} />
         <Route path="/Contact" element={<Contact />} />
-        {/* <Route path="/Works" element={<Works />} /> */}
+        <Route path="/myWorks" element={<MyWorks />} />
       </Routes>
       <Footer/>
       </main>
