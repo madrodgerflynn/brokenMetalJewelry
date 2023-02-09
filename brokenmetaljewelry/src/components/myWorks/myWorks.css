@@ -1,0 +1,10 @@
+.card1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Acme', sans-serif;
+    color:var(--burgandy);
+    font-size: 50px;
+}
