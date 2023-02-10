@@ -8,7 +8,8 @@ function MyWorks(){
     return(
         <body className="card-body">
         <div className="card1" >
-        <img orientation="top" src={moonScape} alt="Moonscape Neckalce" />
+          <card></card>
+        <img className="card-image"orientation="top" src={moonScape} alt="Moonscape Neckalce"/>
           <h1>MoonScape Necklace</h1>
           <p>
             Some quick example text to build on the card title and make up the bulk of the card's content.
