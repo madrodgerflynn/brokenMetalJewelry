@@ -22,7 +22,7 @@ h1{
 .card-image{
    width: 40%;
    object-fit:contain;
-   border: double 15px var(--burgandy);
+   border: double 17px var(--burgandy);
 }
 p{
     width: 50%;
