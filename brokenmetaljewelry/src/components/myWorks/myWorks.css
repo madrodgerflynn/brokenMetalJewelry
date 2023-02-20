@@ -4,7 +4,7 @@
     background-image: none;
     display: flex;
     flex-direction: row;
-    margin-left: 2%;
+    
  
 }
 .card1{
@@ -16,14 +16,16 @@
     border: double 5px var(--burgandy);
     padding-bottom: 2%;
     padding-top: 2%;
+    margin-left: 5%;
 }
 h1{
     font-family: 'Acme', sans-serif;
     color:var(--burgandy);
-    font-size: 50px;
+    font-size: 35px;
+    display: flex;
 }
 .card-image{
-   width: 40%;
+   width: 50%;
    object-fit:contain;
    border: double 17px var(--burgandy);
 }
