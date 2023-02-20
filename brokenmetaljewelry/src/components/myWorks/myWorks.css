@@ -2,6 +2,9 @@
     width: 30%;
     margin: 2%;
     background-image: none;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
  
 }
 .card1{
