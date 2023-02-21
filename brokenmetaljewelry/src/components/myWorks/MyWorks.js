@@ -3,6 +3,7 @@ import "./MyWorks.css";
 import moonScape from "../workimages/moonScape.png";
 import tieFighters from "../workimages/tieFighters.png";
 import blueSteel from "../workimages/blueSteel.png";
+import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 
 function MyWorks(){
    
@@ -31,6 +32,16 @@ function MyWorks(){
           <br></br>
           {/* <card></card> */}
         <img className="card-image"orientation="top" src={blueSteel} alt="Tie Figher Earings"/>
+          <h1>Tie Fighter Earings</h1>
+          <p>
+            Heated Steel and Sterling Silver Chain. 
+          </p>
+          <button href="#">Availability</button>
+      </div> 
+        <div className="card1" >
+          <br></br>
+          {/* <card></card> */}
+        <img className="card-image"orientation="top" src={aPortaitOfGranite} alt="Tie Figher Earings"/>
           <h1>Tie Fighter Earings</h1>
           <p>
             Heated Steel and Sterling Silver Chain. 
