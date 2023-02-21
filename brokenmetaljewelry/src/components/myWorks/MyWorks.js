@@ -33,7 +33,7 @@ function MyWorks(){
         <img className="card-image"orientation="top" src={blueSteel} alt="Tie Figher Earings"/>
           <h1>Tie Fighter Earings</h1>
           <p>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Heated Steel and Sterling Silver Chain. 
           </p>
           <button href="#">Availability</button>
       </div> 

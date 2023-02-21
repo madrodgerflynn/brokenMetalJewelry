@@ -37,6 +37,8 @@ p{
 button {
     background-color: var(--yellow);
     border: 2px solid var(--burgandy);
+    display: flex;
+    flex-direction: column;
 }
 @media screen and (max-width: 390px) {
    
