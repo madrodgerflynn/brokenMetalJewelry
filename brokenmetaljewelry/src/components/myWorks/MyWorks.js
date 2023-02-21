@@ -13,9 +13,9 @@ function MyWorks(){
         <img className="card-image"orientation="top" src={moonScape} alt="Moonscape Neckalce"/>
           <h1>MoonScape Necklace</h1>
           <p>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Copper and Silver on Brass with a Brass chain.  
           </p>
-          <button href="#">Go somewhere</button>
+          <button href="#">Availability</button>
       </div> 
         <div className="card1" >
           <br></br>
@@ -23,9 +23,9 @@ function MyWorks(){
         <img className="card-image"orientation="top" src={tieFighters} alt="Tie Figher Earings"/>
           <h1>Tie Fighter Earings</h1>
           <p>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+            Silver and Brass with Sodalite inlay. 
           </p>
-          <button href="#">Go somewhere</button>
+          <button href="#">Availability</button>
       </div> 
         <div className="card1" >
           <br></br>
@@ -35,7 +35,7 @@ function MyWorks(){
           <p>
             Some quick example text to build on the card title and make up the bulk of the card's content.
           </p>
-          <button href="#">Go somewhere</button>
+          <button href="#">Availability</button>
       </div> 
         </body>
     )
