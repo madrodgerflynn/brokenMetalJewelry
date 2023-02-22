@@ -13,7 +13,7 @@
     align-items:center;
     flex-direction: column;
     width: 100%;
-    border: double 5px var(--burgandy);
+    border: solid 7px var(--forestGreen);
     padding-bottom: 1%;
     padding-top: 1%;
     margin-left: 5%;
@@ -27,18 +27,23 @@ h1{
 .card-image{
    width: 50%;
    object-fit:contain;
-   border: double 17px var(--burgandy);
+   border: groove 17px var(--forestGreen);
 }
 p{
     width: 50%;
-    font-size: 15px;
-    color: var(--forestGreen)
+    font-size: 20px;
+    color: var(--forestGreen);
+    font-family: 'Amatic SC', cursive;
+    border: solid 2px var(--forestGreen);
+    padding: 2%;
 }
 button {
-    background-color: var(--yellow);
+    background-color: var(--tan);
     border: 2px solid var(--burgandy);
     display: flex;
-    flex-direction: column;
+    color: var(--burgandy);
+    
+    
 }
 @media screen and (max-width: 390px) {
    

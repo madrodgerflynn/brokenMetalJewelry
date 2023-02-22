@@ -32,7 +32,7 @@ function MyWorks(){
           <br></br>
           {/* <card></card> */}
         <img className="card-image"orientation="top" src={blueSteel} alt="Tie Figher Earings"/>
-          <h1>Tie Fighter Earings</h1>
+          <h1>Blue Steel</h1>
           <p>
             Heated Steel and Sterling Silver Chain. 
           </p>
@@ -42,7 +42,7 @@ function MyWorks(){
           <br></br>
           {/* <card></card> */}
         <img className="card-image"orientation="top" src={aPortaitOfGranite} alt="Tie Figher Earings"/>
-          <h1>Tie Fighter Earings</h1>
+          <h1>A Portrait of Granite</h1>
           <p>
             Heated Steel and Sterling Silver Chain. 
           </p>
