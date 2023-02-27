@@ -28,6 +28,7 @@ h1{
    width: 50%;
    object-fit:contain;
    border: groove 17px var(--forestGreen);
+   border-radius: 2%;
 }
 p{
     width: 50%;
