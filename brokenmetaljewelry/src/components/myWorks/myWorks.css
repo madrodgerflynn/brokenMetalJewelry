@@ -21,21 +21,24 @@
 h1{
     font-family: 'Acme', sans-serif;
     color:var(--burgandy);
-    font-size: 2rem;
+    font-size: 3rem;
     display: flex;
+    flex-direction: column;
+    
 }
 .card-image{
    width: 50%;
    object-fit:contain;
    border: groove 17px var(--forestGreen);
    border-radius: 2%;
+   box-shadow: solid grey;
 }
 p{
     width: 50%;
     font-size: 20px;
     color: var(--forestGreen);
     font-family: 'Amatic SC', cursive;
-    border: solid 2px var(--forestGreen);
+    border: solid 5px var(--forestGreen);
     padding: 2%;
 }
 button {
