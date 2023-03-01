@@ -6,7 +6,9 @@ import blueSteel from "../workimages/blueSteel.png";
 import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 
 function MyWorks(){
-   
+  //  function MouseOver(event) {
+  //   event.target.style
+  //  }
     return(
         <body className="card-body">
         <div className="card1" >
