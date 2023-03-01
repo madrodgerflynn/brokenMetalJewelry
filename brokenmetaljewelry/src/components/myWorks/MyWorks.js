@@ -11,8 +11,8 @@ function MyWorks(){
         <body className="card-body">
         <div className="card1" >
           {/* <card></card> */}
+          <h1 className="cardTitles">MoonScape Necklace</h1>
         <img className="card-image"orientation="top" src={moonScape} alt="Moonscape Neckalce"/>
-          <h1>MoonScape Necklace</h1>
           <p>
             Copper and Silver on Brass with a Brass chain.  
           </p>
@@ -21,8 +21,8 @@ function MyWorks(){
         <div className="card1" >
           <br></br>
           {/* <card></card> */}
+          <h1 className="cardTitles">Tie Fighter Earings</h1>
         <img className="card-image"orientation="top" src={tieFighters} alt="Tie Figher Earings"/>
-          <h1>Tie Fighter Earings</h1>
           <p>
             Silver and Brass with Sodalite inlay. 
           </p>
@@ -31,8 +31,8 @@ function MyWorks(){
         <div className="card1" >
           <br></br>
           {/* <card></card> */}
+          <h1 className="cardTitles">Blue Steel</h1>
         <img className="card-image"orientation="top" src={blueSteel} alt="Tie Figher Earings"/>
-          <h1>Blue Steel</h1>
           <p>
             Heated Steel and Sterling Silver Chain. 
           </p>
@@ -41,8 +41,8 @@ function MyWorks(){
         <div className="card1" >
           <br></br>
           {/* <card></card> */}
+          <h1 className="cardTitles">A Portrait of Granite</h1>
         <img className="card-image"orientation="top" src={aPortaitOfGranite} alt="Tie Figher Earings"/>
-          <h1>A Portrait of Granite</h1>
           <p>
             Heated Steel and Sterling Silver Chain. 
           </p>

@@ -14,14 +14,22 @@
     flex-direction: column;
     width: 100%;
     border: solid 8px var(--forestGreen);
-    padding-bottom: 1%;
-    padding-top: 1%;
+    margin-bottom: 1%;
+    margin-top: 1%;
     margin-left: 5%;
 }
 h1{
     font-family: 'Acme', sans-serif;
     color:var(--burgandy);
     font-size: 3rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.cardTitles{
+    font-family: 'Acme', sans-serif;
+    color:var(--burgandy);
+    font-size: 2rem;
     display: flex;
     flex-direction: column;
     
