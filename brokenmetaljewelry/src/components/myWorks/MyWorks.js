@@ -6,15 +6,18 @@ import blueSteel from "../workimages/blueSteel.png";
 import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 
 function MyWorks(){
-  //  function MouseOver(event) {
-  //   event.target.style
-  //  }
+   function MouseOver(event) {
+    event.target.style.width = "50%"; 
+   }
+   function MouseOut(event){
+    event.target.style.width = "";
+   }
     return(
         <body className="card-body">
         <div className="card1" >
           {/* <card></card> */}
           <h1 className="cardTitles">MoonScape Necklace</h1>
-        <img className="card-image"orientation="top" src={moonScape} alt="Moonscape Neckalce"/>
+        <img onMouseOver={MouseOver} onMouseOut={MouseOut} className="card-image"orientation="top"  src={moonScape} alt="Moonscape Neckalce" />
           <p>
             Copper and Silver on Brass with a Brass chain.  
           </p>
