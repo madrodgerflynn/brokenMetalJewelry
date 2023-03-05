@@ -7,10 +7,10 @@ import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 
 function MyWorks(){
    function MouseOver(event) {
-    event.target.style.width = "50%"; 
+    event.style.width = "50%"; 
    }
    function MouseOut(event){
-    event.target.style.width = "";
+    event.style.width = "";
    }
     return(
         <body className="card-body">
