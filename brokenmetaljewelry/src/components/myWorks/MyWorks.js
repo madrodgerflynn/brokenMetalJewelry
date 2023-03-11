@@ -7,6 +7,7 @@ import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 
 function MyWorks(){
    function MouseOver(event) {
+    console.log("HERE")
     event.style.width = "50%"; 
    }
    function MouseOut(event){
