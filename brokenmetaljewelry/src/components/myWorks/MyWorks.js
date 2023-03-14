@@ -6,19 +6,19 @@ import blueSteel from "../workimages/blueSteel.png";
 import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 
 function MyWorks(){
-   function MouseOver(event) {
-    console.log("HERE")
-    "card-image".event.style.width = "50%"; 
-   }
-   function MouseOut(event){
-    "card-image".event.style.width = "";
-   }                   
-    return(
-        <body className="card-body">
+  function lrgImg(event) {
+   console.log("here", event.target)
+   event.style.scale="80%"; 
+  }
+  function nrmlImg(event){
+   event.style.scale = "50%";
+  }                   
+  return(
+    <body className="card-body">
         <div className="card1" >
           {/* <card></card> */}
           <h1 className="cardTitles">MoonScape Necklace</h1>
-        <img onMouseOver={MouseOver} onMouseOut={MouseOut} className="card-image"orientation="top"  src={moonScape} alt="Moonscape Neckalce" />
+        <img onMouseOver={lrgImg} onMouseOut={nrmlImg}width= "50%"  className="card-image"orientation="top"  src={moonScape} alt="Moonscape Neckalce" />
           <p>
             Copper and Silver on Brass with a Brass chain.  
           </p>
