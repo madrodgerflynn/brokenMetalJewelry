@@ -8,11 +8,11 @@ import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 function MyWorks(){
    function MouseOver(event) {
     console.log("HERE")
-    event.style.width = "50%"; 
+    "card-image".event.style.width = "50%"; 
    }
    function MouseOut(event){
-    event.style.width = "";
-   }
+    "card-image".event.style.width = "";
+   }                   
     return(
         <body className="card-body">
         <div className="card1" >
