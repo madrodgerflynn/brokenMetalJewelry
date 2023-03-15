@@ -40,6 +40,10 @@ h1{
    border: groove 17px var(--forestGreen);
    border-radius: 2%;
    box-shadow: solid grey;
+   
+}
+.card-image:hover{
+    scale: (1.7)
 }
 p{
     width: 50%;

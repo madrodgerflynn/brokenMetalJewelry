@@ -8,17 +8,17 @@ import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 function MyWorks(){
   function lrgImg(event) {
    console.log("here", event.target)
-   event.style.scale="80%"; 
+   event.style='scale'; 
   }
   function nrmlImg(event){
-   event.style.scale = "50%";
+   event.style = 'scale';
   }                   
   return(
     <body className="card-body">
         <div className="card1" >
           {/* <card></card> */}
           <h1 className="cardTitles">MoonScape Necklace</h1>
-        <img onMouseOver={lrgImg} onMouseOut={nrmlImg}width= "50%"  className="card-image"orientation="top"  src={moonScape} alt="Moonscape Neckalce" />
+        <img onMouseOver={lrgImg} onMouseOut={nrmlImg}scale= "50%"  className="card-image"orientation="top"  src={moonScape} alt="Moonscape Neckalce" />
           <p>
             Copper and Silver on Brass with a Brass chain.  
           </p>
