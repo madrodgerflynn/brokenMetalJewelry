@@ -38,7 +38,7 @@ h1{
    width: 50%;
    object-fit:contain;
    border: groove 17px var(--forestGreen);
-   border-radius: 2%;
+   border-radius: 5%;
    box-shadow: solid grey;
    
 }
@@ -62,8 +62,8 @@ button {
 }
 @media screen and (max-width: 390px) {
    
-    h1, p{
-        font-size: 20px;
+    h1{
+        font-size: 15px;
     }
     
  } 
