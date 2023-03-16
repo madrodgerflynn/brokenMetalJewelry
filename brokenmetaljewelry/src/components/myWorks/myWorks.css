@@ -43,7 +43,10 @@ h1{
    
 }
 .card-image:hover{
-    transform: scale(2) ease-in-out;}
+    transform: scale(2);
+    transition-timing-function: ease-in-out;
+    transition: .4s;
+}
 p{
     width: 50%;
     font-size: 20px;
