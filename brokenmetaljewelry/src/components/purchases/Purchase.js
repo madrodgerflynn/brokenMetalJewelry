@@ -4,9 +4,11 @@ import "./Purchase.css";
 function purchaseForm() {
 
 
+
+
     return(
         <div className="formBody">
-            
+
         </div>
     )
 }
