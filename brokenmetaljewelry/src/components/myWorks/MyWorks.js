@@ -15,7 +15,7 @@ function MyWorks(){
   // }                   
   return(
     <body className="card-body">
-        <div className="card1" >
+        <div className="card1" id="item1" >
           {/* <card></card> */}
           <h1 className="cardTitles">MoonScape Necklace</h1>
         <img  className="card-image"orientation="top"  src={moonScape} alt="Moonscape Neckalce" />
@@ -24,7 +24,7 @@ function MyWorks(){
           </p>
           <button href="#">Availability</button>
       </div> 
-        <div className="card1" >
+        <div className="card1" id="item2" >
           <br></br>
           {/* <card></card> */}
           <h1 className="cardTitles">Tie Fighter Earings</h1>
@@ -34,7 +34,7 @@ function MyWorks(){
           </p>
           <button href="#">Availability</button>
       </div> 
-        <div className="card1" >
+        <div className="card1" id="item3" >
           <br></br>
           {/* <card></card> */}
           <h1 className="cardTitles">Blue Steel</h1>
@@ -44,7 +44,7 @@ function MyWorks(){
           </p>
           <button href="#">Availability</button>
       </div> 
-        <div className="card1" >
+        <div className="card1" id="item4" >
           <br></br>
           {/* <card></card> */}
           <h1 className="cardTitles">A Portrait of Granite</h1>

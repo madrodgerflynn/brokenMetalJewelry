@@ -1,6 +1,6 @@
 import React from "react";
 import "./Purchase.css";
-import {useForm, useField} from "@shopify/react-form";
+// import {useForm, useField} from "@shopify/react-form";
 
 function Purchase() {
 // const {
