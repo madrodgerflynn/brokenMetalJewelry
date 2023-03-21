@@ -6,13 +6,7 @@ import blueSteel from "../workimages/blueSteel.png";
 import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 
 function MyWorks(){
-  // function lrgImg(event) {
-  //  console.log("here", event.target)
-  //  event.style='scale'; 
-  // }
-  // function nrmlImg(event){
-  //  event.style = 'scale';
-  // }                   
+                 
   return(
     <body className="card-body">
         <div className="card1" id="item1" >
