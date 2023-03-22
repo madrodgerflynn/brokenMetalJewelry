@@ -4,6 +4,5 @@ const data= {
         name: 'Moonscape Necklace',
         price: 120,
     }
-        
     ]    
 }
