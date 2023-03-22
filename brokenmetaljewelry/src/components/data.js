@@ -3,18 +3,20 @@ const data= {
         {id: 'item1',
         name: 'Moonscape Necklace',
         price: 120,
-   
-    },    
-   
+    },   
         { id: 'item2',
         name: 'Tie Fighter Earings',
-        price: 120,
+        price: 90,
   
     },   
-    
         {id: 'item3',
         name: 'Blue Steel',
-        price: 120,
+        price: 130,
+    },
+    {
+        id: 'item4',
+        name: 'A Portrait of Granite',
+        price: 145,
     }
   ],  
 }
