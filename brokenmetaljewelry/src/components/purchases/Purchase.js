@@ -1,55 +1,18 @@
 import React from "react";
 import "./Purchase.css";
-// import {useForm, useField} from "@shopify/react-form";
+import data from "../data";
 
-function Purchase() {
-// const {
-//     fields: {title},
-//     submit,
-//     submitting, 
-//     dirty,
-//     reset,
-//     submitErrors,
-//     makeClean,
-// } = useForm ({
-//     fields: {
-//         title: useField('View Purchase'),
-//     },
-//     onSubmit: async(fieldValues) => {
-//         return {status: 'fail', errors: [{message: 'bad form data'}]};
-//     },
-// });
-
-// const loading = submitting? <p className="loading">loading...</p>: null;
-// const errors = 
-// submitErrors.length>0? (
-//     <p className="error">{submitErrors.join(', ')}</p>
-// ) : null;
-
-//     return(
-//         <form onSubmit={submit}>
-//             {loading}
-//             {errors}
-//             <div>
-//                 <label htmlFor="title">
-//                     Purchase
-//                     <input
-//                     id="title"
-//                     name="title"
-//                     value={title.value}
-//                     onChange={title.onChange}
-//                     onBlur={title.onBlur}
-//                     />
-//                 </label>
-//                 {title.error && <p className="error">{title.error}</p>}
-//             </div>
-//             <button type="button" disabled={!dirty} onClick={reset}>
-//                 Reset
-//             </button>
-//             <button type="submit" disabled={!dirty} onClick={submit}>
-//                 Submit
-//             </button>
-//         </form>
-//     )
+function Purchase(props) {
+ const {products} = props;
+ return(
+    <div className="block col-2">
+        <h2>Your Purchase</h2>
+        <div className="row">
+            {products.map((product)=>(
+                <Prodcut key={product.id} product={product}></Prodcut>
+            ))}
+        </div>
+    </div>
+ )
 }
 export default Purchase;
