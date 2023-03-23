@@ -2,17 +2,17 @@ import React from "react";
 import "./Purchase.css";
 import data from "../data";
 
-function Purchase(props) {
+function Product(props) {
  const {products} = props;
  return(
     <div className="block col-2">
         <h2>Your Purchase</h2>
         <div className="row">
             {products.map((product)=>(
-                <Prodcut key={product.id} product={product}></Prodcut>
+                <Product key={product.id} product={product}></Product>
             ))}
         </div>
     </div>
  )
 }
-export default Purchase;
+export default Product;
