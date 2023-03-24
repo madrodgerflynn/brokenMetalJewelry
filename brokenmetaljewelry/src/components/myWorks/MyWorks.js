@@ -7,7 +7,8 @@ import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
 import data from "../data.js";
 
 function MyWorks(){
-                 
+         const {products} = data;
+                
   return(
     <body className="card-body">
         <div className="card1" id="item1" >
