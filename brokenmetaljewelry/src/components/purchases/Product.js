@@ -5,7 +5,7 @@ import data from "../data";
 function Product(props) {
  const {products} = props;
  return(
-    <div className="block col-2">
+    <div className="purchaseForm">
         <h2>Your Purchase</h2>
         <div className="row">
             {products.map((product)=>(
