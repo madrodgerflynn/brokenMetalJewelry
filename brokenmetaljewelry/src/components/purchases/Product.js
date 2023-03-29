@@ -1,6 +1,6 @@
 import React from "react";
 import "./Purchase.css";
-import data from "../data";
+// import data from "../data";
 
 function Product(props) {
  const {products} = props;
