@@ -1,3 +1,4 @@
 .purchaseForm{
     display: flex;
+    border:  solid 5px var(--forestGreen);
 }

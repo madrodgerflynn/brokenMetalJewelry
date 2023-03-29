@@ -1,7 +1,7 @@
-import aPortraitOfGranite from "./workimages"
-import moonScape from "./workimages";
-import tieFighters from "./workimages";
-import blueSteel from "./workimages";
+import aPortraitOfGranite from "./workimages/aPortraitOfGranite .png"
+import moonScape from "./workimages/moonScape.png";
+import tieFighters from "./workimages/tieFighters.png";
+import blueSteel from "./workimages/blueSteel.png";
 const data= {
     products: [
         {id: 'item1',
