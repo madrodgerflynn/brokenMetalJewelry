@@ -4,7 +4,7 @@ import moonScape from "../workimages/moonScape.png";
 import tieFighters from "../workimages/tieFighters.png";
 import blueSteel from "../workimages/blueSteel.png";
 import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
-import data from "../data.js";
+// import data from "../data.js";
 
 function MyWorks(){
         //  const {products} = data;

@@ -4,7 +4,7 @@ import Particles from "react-particles"
 import MyWorks from "./components/myworks/MyWorks";
 import Contact from "./components/contact/Contact";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import SideBar from './components/sideBar/SideBar';
+import SideBar from './components/sidebar/SideBar';
 import React, { useCallback } from 'react';
 import {loadFull} from "tsparticles";
 import particleOptions from "./particlesjs-config.json";
