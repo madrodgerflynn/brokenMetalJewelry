@@ -4,6 +4,7 @@ import moonScape from "../workimages/moonScape.png";
 import tieFighters from "../workimages/tieFighters.png";
 import blueSteel from "../workimages/blueSteel.png";
 import aPortaitOfGranite from "../workimages/aPortraitOfGranite .png";
+import { Link } from "react-router-dom";
 // import data from "../data.js";
 
 function MyWorks(){
@@ -28,7 +29,7 @@ function MyWorks(){
           <p>
             Silver and Brass with Sodalite inlay. 
           </p>
-          <button href="#">Availability</button>
+          <Link to= {{pathname: "../purchases/Product.js" }} >Availability</Link>
       </div> 
         <div className="card1" id="item3" >
           <br></br>
